@@ -42,14 +42,11 @@ class Program
             elo = "Imortal";
         }
 
-        else
+        else {
             elo = "Radiante";
+        }
 
-
-
-
-
-
+            
         Console.WriteLine($"O Player de nick {nomeDoPlayer} está no ranking atual {elo}");
     }
 }
